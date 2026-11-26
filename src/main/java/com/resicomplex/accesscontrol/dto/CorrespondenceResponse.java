@@ -9,6 +9,7 @@ public record CorrespondenceResponse(
         String packageType,
         String courier,
         String status,
+        String pickupPin,
         LocalDateTime receivedAt,
         LocalDateTime deliveredAt) {
 }

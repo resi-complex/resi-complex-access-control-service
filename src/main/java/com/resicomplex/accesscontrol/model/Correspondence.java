@@ -35,6 +35,9 @@ public class Correspondence {
     @Column(name = "status", nullable = false, length = 20)
     private String status;
 
+    @Column(name = "pickup_pin", length = 10)
+    private String pickupPin;
+
     @Column(name = "received_at", nullable = false)
     private LocalDateTime receivedAt;
 
